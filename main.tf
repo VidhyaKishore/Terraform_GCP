@@ -7,7 +7,7 @@ provider "google" {
 resource "google_compute_instance" "ubuntu_instance" {
   name         = "ubuntu-instance1"
   machine_type = "n1-standard-1"
-  zone         = "us-central1-a"
+  zone         = "us-central1-b"
 
   boot_disk {
     initialize_params {
