@@ -6,7 +6,7 @@ provider "google" {
 
 resource "google_compute_instance" "ubuntu_instance" {
   name         = "ubuntu-instance1"
-  machine_type = "n1-standard-1"
+  machine_type = "e2-micro"
   zone         = "us-central1-b"
 
   boot_disk {
